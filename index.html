@@ -14,12 +14,12 @@
                 <input type="text" id="search">
             </div>
             <div class="top-right">
-                <img src="./icons/bell-ring-outline.svg" style="height: 25px;"/>
+                <img src="./icons/bell-ring-outline.svg" id="bell" style="height: 25px;"/>
                 <img src="./icons/snake.svg" alt="brand" style="background-color:yellow" height="35px"/>
                 <p>Morgan Oakley</p>
             </div>
             <div class="bottom-left">
-                <img src="./icons/snake.svg" alt="brand" style="background-color:yellow" height="55px"/>
+                <img src="./icons/snake.svg" alt="brand" style="background-color:yellow" />
                 <p>Hi there,</p>
                 <h2>Morgan Oakley (@morgan)</h2>                
             </div>
@@ -30,56 +30,50 @@
             </div>
         </div>
         <div class="sidebar">
-            <div class="sidebar-top">
-                <div class="item">
-                    <img src="./icons/view-dashboard.svg" alt="icon">
+                <div class="box top">           
+                    <img src="./icons/view-dashboard.svg" alt="icon" id="logo">
                     <p>Dashboard</p>
                 </div>
-            </div>
-            <div class="sidebar-middle">
-                <div class="item">
+                <div class="box">
                     <img src="./icons/home.svg" alt="home">
                     <p>Home</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/profile.svg" alt="id" class="icon">
                     <p>Profile</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/message-reply.svg" alt="speech">
                     <p>Messages</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/clock.svg" alt="clock">
                     <p>History</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/notes.svg" alt="papers">
                     <p>Tasks</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/group.svg" alt="people">
                     <p>Communities</p>
                 </div>
-            </div>
-            <div class="sidebar-bottom">
-                <div class="item">
+                <div class="box bottom">
                     <img src="./icons/cog.svg" alt="cog">
                     <p>Settings</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/help-box.svg" alt="question-mark">
                     <p>Support</p>
                 </div>
-                <div class="item">
+                <div class="box">
                     <img src="./icons/privacy.svg" alt="shield">
                     <p>Privacy</p>
                 </div>
             </div>
         </div>
-        <div class="main">
-            <div class="projects">
-                <p class="title one">Your Projects</p>
+        <div class="main">            
+                <p class="title one">Your Projects</p>        
                 <div class="projects-box">
                     <div class="card">
                         <h1>Super Cool Project</h1>
@@ -135,47 +129,48 @@
                             <img src="./icons/share-variant.svg" alt="" class="inline">
                         </div>
                     </div>
+                </div>               
+            
+            <div class="right-bar">
+                <h1 class="title two">Announcements</h1>
+                <div class="announcements">
+                    <div class="announce">
+                        <h2>Site Maintenance</h2>
+                        <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, deserunt laudantium dicta</p>
+                    </div>
+                    <div class="announce">
+                        <h2>Community Share Day</h2>
+                        <p>ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aliquid voluptatibus, iste officiis.</p>
+                    </div>
+                    <div class="announce">
+                        <h2>Updated Privacy Policy</h2>
+                        <p>ipsum Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
                 </div>
-            </div>
-            <div class="announcements">
-            <p class="title two">Announcements</p>
-            <div class="announce">
-                <h2>Site Maintenance</h2>
-                <p>ipsum Lorem ipsum</p>
-            </div>
-            <div class="announce">
-                <h2>Community Share Day</h2>
-                <p>ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aliquid voluptatibus, iste officiis.</p>
-            </div>
-            <div class="announce">
-                <h2>Updated Privacy Policy</h2>
-                <p>ipsum Lorem ipsum, dolor sit amet consectetur</p>
-            </div>
-        </div>
-        <div class="trending">
-            <p class="title three">Trending</p>
-            <div class="on-trend">
-                <img src="" alt="">
-                <h3>@tegan</h3>
-                <p>World Peace Builder</p>
-            </div>
-            <div class="on-trend">
-                <img src="" alt="">
-                <h3>@morgan</h3>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="on-trend">
-                <img src="" alt="">
-                <h3>@kendall</h3>
-                <p>Life Changing App</p>
-            </div>
-            <div class="on-trend">
-                <img src="" alt="">
-                <h3>@alex</h3>
-                <p>No Traffic Maker</p>
-            </div>
-        </div>
-        
+                <div class="trending">
+                    <h3 class="title three">Trending</h3>
+                    <div class="on-trend">
+                        <img src="./icons/dog-side.svg" alt="dog">
+                        <h3>@tegan</h3>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="on-trend">
+                        <img src="./icons/duck.svg" alt="duck">
+                        <h3>@morgan</h3>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <div class="on-trend">
+                        <img src="./icons/owl.svg" alt="">
+                        <h3>@kendall</h3>
+                        <p>Life Changing App</p>
+                    </div>
+                    <div class="on-trend">
+                        <img src="./icons/snake.svg" alt="">
+                        <h3>@alex</h3>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>        
     </section>
 </body>
 </html>
